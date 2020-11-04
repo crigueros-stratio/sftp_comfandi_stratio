@@ -2,11 +2,7 @@
 # docker build -t camiloriguer/sftp .
 # docker push camiloriguer/sftp:latest
 
-
 FROM debian:buster
-MAINTAINER [atmoz.net]
-
-
 # Steps done in one RUN layer:
 # - Install packages
 # - OpenSSH needs /var/run/sshd to run
